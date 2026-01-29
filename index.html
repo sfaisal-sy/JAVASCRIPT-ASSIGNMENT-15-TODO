@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO-DO-APP</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="container m-5 mx-auto">
+            <div class="row">
+                <div class="col">
+                    <h1 class="text-center">TO-DO-APP</h1>
+                </div>
+                <hr>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container m-5 mx-auto">
+            <div class="row">
+                <div class="col">
+                    <input id="inputtask" type="text" class="form-control bg-dark text-white" >
+                </div>
+            </div>
+            <button id="addtask" class="btn btn-primary mt-2 mx-auto">ADD-TASK</button>
+            <hr>
+        </div>
+        <div class="container m-5 mx-auto">
+            <div class="row">
+                <div class="col">
+                    <table id="taskstable" class="table table-bordered border-primary ">
+                        <thead class="text-center">
+                            <tr>
+                                <th>S.No</th>
+                                <th class="task" width="45%">TASKS</td>
+                                <th>STATUS</th>
+                                <th>UPDATE</th>
+                                <th>DELETE</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- <tr>
+                        <td id="snumber">S.No</td>
+                        <td class="task" id="task">TASKS</td>
+                        <td id="status">STATUS</td>
+                        <td id="update"><button id="updatebtn">Update</button></td>
+                        <td id="delete"><button id="deletebtn">Delete</button></td>
+                    </tr> -->
+                        </tbody>
+                    </table>
+                    <button id="deleteall" class="btn btn-danger mx-auto">DELETE ALL TAKS</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

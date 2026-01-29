@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+
+    background-color: black;
+    color: antiquewhite;
+}
+
+.container {
+    max-width: 500px;
+}
+
+#addtask.btn, #deleteall.btn{
+    width: 50%;
+    display: block;
+}
+.form-control {
+   
+    height: 3em;
+}
+
+.table > tr > td {
+    
+}
